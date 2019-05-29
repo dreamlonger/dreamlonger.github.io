@@ -1,60 +1,130 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>《局外人》读后感 | ML</title>
-<link rel="shortcut icon" href="https://dreamlonger.github.io/favicon.ico?v=1559116460413">
+<meta name="description" content="Dream.Longer">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://dreamlonger.github.io/favicon.ico?v=1559116670484">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://dreamlonger.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://dreamlonger.github.io">
-  <img class="avatar" src="https://dreamlonger.github.io/images/avatar.png?v=1559116460413" alt="">
-  </a>
-  <h1 class="site-title">
-    ML
-  </h1>
-  <p class="site-description">
-    Dream.Longer
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://dreamlonger.github.io">
+        <img class="avatar" src="https://dreamlonger.github.io/images/avatar.png?v=1559116670484" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://dreamlonger.github.io">
+        <h1 class="site-title">ML</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">《局外人》读后感</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> May 27, 2019 2:50 PM</span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="局外人读后感">《局外人》读后感</h1>
+<p>小说讲述了主人公默尔索因为杀人罪而被审判，但却因其没有在母亲葬礼上表现出该有的痛苦而被“以人民的名义”判处死刑的故事。</p>
+<p>小说分为两个部分，第一部分讲述了​默尔索参加葬礼的经过以及葬礼后和玛丽、雷蒙的交往，第一部分最后阶段默尔索受邀到海边度假，但却因为强烈炫目的阳光失手杀了人。</p>
+<p>不一样。小说第一句“今天，妈妈死了，或许是昨天，我不知道”，简单地几句就能让读者大致对他有了了解:冷漠，迟钝。从默尔索参加葬礼的过程中也可以​看出，他的淡漠与养老院其他人的难过形成对比，就好像他是在参加与他无关的人的葬礼，此时就已显示出他是一个独特的人，一个与其他人不同的人。</p>
+<p>不表演。他是否爱妈妈(从他的陈述中可以看出应该是爱妈妈的)以及爱的程度只有他自己知道，而他表现出来的在别人看来就是不爱，因为爱你为什么不哭，你为什么不悲痛欲绝？可是他的行为确实符合他的内心，他的内心确实没有多少悲痛，所以他表现得也就如此冷漠，他不怕别人从道德角度的评判(或许他根本不知道他和别人不一样:他更诚实)，他只是遵从自己的内心，他的内心是确定的，他觉得没有错。</p>
+<p>不迁就。默尔索对任何事都是很随意的态度，表现出来就是冷漠，玛丽问他爱不爱自己，他说没有意义，他觉得不爱，还有对于雷蒙做不做朋友都可以。这是他内心的想法，​现在爱可能以后会不爱，不爱不代表不能做爱，不能在一起生活，不能结婚，感情是虚假的短暂的，任何人或事好像都没有意义，似乎参透了生死，这或许解释了最后他得知被判死刑却没有多少惊讶的原因。而为什么玛丽和雷蒙听到这样的回答没有很难过或愤怒，可能因为他们知道默尔索说的是真话，他们能从他的话看到他的心，他的真实而冷漠使他不会伤害到他们。</p>
+<p>主人公默尔索拒绝一切感情(激烈的感情)​，妈妈去世没有过度的悲伤，遇到开心事也不会过度的兴奋，对别人的事也没有过度的关注和评判，他不注重感情和关系，因为是虚无的，他只注重体验:看到的，想到的，甚至都不怎么注意听别人说的话。他在实践他的真实存在，而不是社会对人的规范</p>
+<p>​​他这个局外人在局内似乎是个异类，是个没有感情没有道德的不健全的人，但其实从他看来，别人才是异类，用虚伪的道德来显示自己的高尚，却对自己的内心视而不见，但当他被所有人以异样的眼光看待时，他也不免想和他们一样“我和他们绝对一样”，但悲剧是注定的，在所有人都是一只眼</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://dreamlonger.github.io/post/hello-gridea">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">Dream.Longer</div>
   <div class="social-container">
     
       
@@ -68,84 +138,49 @@
       
     
   </div>
+  Powered by ML | <a class="rss" href="https://dreamlonger.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              《局外人》读后感
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · May 27, 2019 2:50 PM ·
-              </time>
-              
-            </div>
-            
-            <div class="post-content">
-              <h1 id="局外人读后感">《局外人》读后感</h1>
-<p>小说讲述了主人公默尔索因为杀人罪而被审判，但却因其没有在母亲葬礼上表现出该有的痛苦而被“以人民的名义”判处死刑的故事。</p>
-<p>小说分为两个部分，第一部分讲述了​默尔索参加葬礼的经过以及葬礼后和玛丽、雷蒙的交往，第一部分最后阶段默尔索受邀到海边度假，但却因为强烈炫目的阳光失手杀了人。</p>
-<p>不一样。小说第一句“今天，妈妈死了，或许是昨天，我不知道”，简单地几句就能让读者大致对他有了了解:冷漠，迟钝。从默尔索参加葬礼的过程中也可以​看出，他的淡漠与养老院其他人的难过形成对比，就好像他是在参加与他无关的人的葬礼，此时就已显示出他是一个独特的人，一个与其他人不同的人。</p>
-<p>不表演。他是否爱妈妈(从他的陈述中可以看出应该是爱妈妈的)以及爱的程度只有他自己知道，而他表现出来的在别人看来就是不爱，因为爱你为什么不哭，你为什么不悲痛欲绝？可是他的行为确实符合他的内心，他的内心确实没有多少悲痛，所以他表现得也就如此冷漠，他不怕别人从道德角度的评判(或许他根本不知道他和别人不一样:他更诚实)，他只是遵从自己的内心，他的内心是确定的，他觉得没有错。</p>
-<p>不迁就。默尔索对任何事都是很随意的态度，表现出来就是冷漠，玛丽问他爱不爱自己，他说没有意义，他觉得不爱，还有对于雷蒙做不做朋友都可以。这是他内心的想法，​现在爱可能以后会不爱，不爱不代表不能做爱，不能在一起生活，不能结婚，感情是虚假的短暂的，任何人或事好像都没有意义，似乎参透了生死，这或许解释了最后他得知被判死刑却没有多少惊讶的原因。而为什么玛丽和雷蒙听到这样的回答没有很难过或愤怒，可能因为他们知道默尔索说的是真话，他们能从他的话看到他的心，他的真实而冷漠使他不会伤害到他们。</p>
-<p>主人公默尔索拒绝一切感情(激烈的感情)​，妈妈去世没有过度的悲伤，遇到开心事也不会过度的兴奋，对别人的事也没有过度的关注和评判，他不注重感情和关系，因为是虚无的，他只注重体验:看到的，想到的，甚至都不怎么注意听别人说的话。他在实践他的真实存在，而不是社会对人的规范</p>
-<p>​​他这个局外人在局内似乎是个异类，是个没有感情没有道德的不健全的人，但其实从他看来，别人才是异类，用虚伪的道德来显示自己的高尚，却对自己的内心视而不见，但当他被所有人以异样的眼光看待时，他也不免想和他们一样“我和他们绝对一样”，但悲剧是注定的，在所有人都是一只眼</p>
-
-            </div>
-          </article>
-        </div>
-
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://dreamlonger.github.io/post/hello-gridea">
-              <h3 class="post-title">
-                Hello Gridea
-              </h3>
-            </a>
-          </div>
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'bcbebbe3bf36aaaaf4a0',
-    clientSecret: 'e09e2251ff52302792560731fbdc8f2187768b96',
-    repo: 'dreamlonger.github.io',
-    owner: 'dreamlonger',
-    admin: ['dreamlonger'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  Powered by ML | 
-  <a class="rss" href="https://dreamlonger.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
-      </div>
     </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'bcbebbe3bf36aaaaf4a0',
+        clientSecret: 'e09e2251ff52302792560731fbdc8f2187768b96',
+        repo: 'dreamlonger.github.io',
+        owner: 'dreamlonger',
+        admin: ['dreamlonger'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
