@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dreamlonger.github.io</id>
     <title>ML</title>
-    <updated>2019-06-23T09:16:48.797Z</updated>
+    <updated>2019-06-23T09:24:30.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dreamlonger.github.io"/>
     <link rel="self" href="https://dreamlonger.github.io/atom.xml"/>
@@ -11,14 +11,12 @@
     <icon>https://dreamlonger.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, ML</rights>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
-        <id>https://dreamlonger.github.io/post/11</id>
-        <link href="https://dreamlonger.github.io/post/11">
+        <title type="html"><![CDATA[天行九歌]]></title>
+        <id>https://dreamlonger.github.io/post/tian-xing-jiu-ge</id>
+        <link href="https://dreamlonger.github.io/post/tian-xing-jiu-ge">
         </link>
-        <updated>2019-06-23T09:16:20.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>&lt;OBJECT classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; width=&quot;600&quot; height=&quot;338&quot; id=&quot;polyvplayer627b62ec5f24134dade92694110fd424_6&quot;&gt;&lt;PARAM NAME=movie VALUE=&quot;//player.polyv.net/videos/player.swf&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;Transparent&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;vid=627b62ec5f24134dade92694110fd424_6&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;EMBED src=&quot;//player.polyv.net/videos/player.swf&quot; width=&quot;600&quot; height=&quot;338&quot;  TYPE=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; wmode=&quot;Transparent&quot; name=&quot;polyvplayer627b62ec5f24134dade92694110fd424_6&quot; allowFullScreen=&quot;true&quot; flashvars=&quot;vid=627b62ec5f24134dade92694110fd424_6&quot;&gt;&lt;/EMBED&gt;&lt;/OBJECT&gt;
-</code></pre>
-]]></content>
+        <updated>2019-06-23T09:17:34.000Z</updated>
+        <content type="html"><![CDATA[<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://share.polyv.net/front/video/preview?vid=627b62ec5f24134dade92694110fd424_6'></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[你好]]></title>
