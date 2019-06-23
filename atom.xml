@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dreamlonger.github.io</id>
     <title>ML</title>
-    <updated>2019-05-31T03:25:47.220Z</updated>
+    <updated>2019-06-23T09:14:03.894Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dreamlonger.github.io"/>
     <link rel="self" href="https://dreamlonger.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://dreamlonger.github.io/images/avatar.png</logo>
     <icon>https://dreamlonger.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, ML</rights>
+    <entry>
+        <title type="html"><![CDATA[天行九歌混剪]]></title>
+        <id>https://dreamlonger.github.io/post/tian-xing-jiu-ge-hun-jian</id>
+        <link href="https://dreamlonger.github.io/post/tian-xing-jiu-ge-hun-jian">
+        </link>
+        <updated>2019-06-23T09:11:41.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="http://share.polyv.net/front/video/view?vid=627b62ec5f24134dade92694110fd424_6">天行九歌</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你好]]></title>
         <id>https://dreamlonger.github.io/post/ni-hao</id>
