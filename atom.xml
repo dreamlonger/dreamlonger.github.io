@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dreamlonger.github.io</id>
     <title>ML</title>
-    <updated>2019-06-23T09:29:20.193Z</updated>
+    <updated>2019-06-23T09:33:08.480Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dreamlonger.github.io"/>
     <link rel="self" href="https://dreamlonger.github.io/atom.xml"/>
@@ -15,8 +15,8 @@
         <id>https://dreamlonger.github.io/post/tian-xing-jiu-ge</id>
         <link href="https://dreamlonger.github.io/post/tian-xing-jiu-ge">
         </link>
-        <updated>2019-06-23T09:29:05.000Z</updated>
-        <content type="html"><![CDATA[<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://share.polyv.net/front/video/preview?vid=627b62ec5f24134dade92694110fd424_6'></iframe>]]></content>
+        <updated>2019-06-23T09:32:57.000Z</updated>
+        <content type="html"><![CDATA[<iframe style='width: 300px;height: 200px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://share.polyv.net/front/video/preview?vid=627b62ec5f24134dade92694110fd424_6'></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[你好]]></title>
